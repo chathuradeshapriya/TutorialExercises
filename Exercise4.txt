@@ -1,0 +1,15 @@
+===========================================
+reference and primitive types - Exe_01	
+===========================================
+const person = {
+  name : 'Max'
+};
+
+const secondPerson = person;
+person.name = 'Menu';
+
+console.log(secondPerson);
+
+		//	[object Object] {
+  			name: "Menu"
+			}
